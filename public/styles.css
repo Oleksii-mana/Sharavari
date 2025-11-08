@@ -30,7 +30,7 @@ img{
 }
 
 .header {
-    background: red;
+    background: rgb(180, 0, 0);
     padding: 40px 20px;
     margin: 0 20%;
     text-align: center;
@@ -48,7 +48,7 @@ img{
 }
 
 .h2{
-    color: red;
+    color: rgb(180, 0, 0);;
     padding: 40px 20px;
     margin: 0 20%;
     text-align: center;
@@ -127,7 +127,7 @@ img{
     padding: 1%;
     text-align: center;
     border: 3px solid transparent;
-    background-color: red;
+    background-color: rgb(180, 0, 0);;
     border-radius: 15px;
 }
 
@@ -164,6 +164,6 @@ img{
     display: flex;
     flex-direction: column;
     height: 100vh; 
-    background: red;
+    background: rgb(180, 0, 0);;
     padding: 10px;
 }
