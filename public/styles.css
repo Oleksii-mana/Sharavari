@@ -10,7 +10,7 @@ html, body {
 }
 
 html {
-  overflow-y: scroll; /* або body */
+  overflow-y: scroll;
 }
 
 img{
@@ -74,7 +74,6 @@ img{
 
 .main{
     padding: 0 5vh;
-    /* flex: 5; */
     margin-left: 17%; 
     background-color: white;
 }
@@ -84,13 +83,6 @@ img{
     font-size: 16px;
     margin: 16px;
 }
-
-/* .main img imageSharavariOnPage{
-     display: block;
-    text-align: center;
-    margin: 0 auto;
-    border: 3px solid black;
-} */
 
 .main p {
     font-family: 'Arial', sans-serif; 
@@ -126,8 +118,8 @@ img{
 }
 
 .sharavari{
-    display: block;           /* щоб було як div */
-    text-decoration: none;    /* прибрати підкреслення */
+    display: block;           
+    text-decoration: none;  
     color: inherit;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2); 
     width: 31%;
@@ -164,7 +156,7 @@ img{
 .sidebar{
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
-   /*  flex: 1; */
+
     position: fixed;
     left: 0;
     top: 0;
